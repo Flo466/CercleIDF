@@ -1,0 +1,9 @@
+/* Eye-catching header section */
+.jumbotron {
+    background-image: url("./Resources/0467648.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
