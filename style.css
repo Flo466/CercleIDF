@@ -7,3 +7,14 @@
     color: white;
     text-align: center;
 }
+
+/* Colors */
+.bg-nav {
+    background-color: #1ac6ff;
+}
+
+/* Images */
+.resize-img {
+    width: 100%;
+    height: auto;
+}
