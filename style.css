@@ -28,3 +28,14 @@
     width: 100%;
     height: auto;
 }
+
+/* Title */
+h2, h3{
+    color: #3f7cb4;
+    font-weight: bolder;
+}
+
+/* Article */
+h3 {
+    font-size: 20px;
+}
