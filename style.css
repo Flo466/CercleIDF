@@ -39,10 +39,19 @@ h3 {
     font-size: 20px;
 }
 
+section article {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+  
+section article:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+   
+
 /* Footer */
 footer {
     background-color: #3f7cb4;
-    text-align: center;
     height: auto;
     color: white;
 }
