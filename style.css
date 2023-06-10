@@ -1,0 +1,71 @@
+/* Eye-catching header section */
+.jumbotron {
+    background-image: url("./Resources/0467648.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar-nav .nav-item {
+    padding-right: 40px;
+    font-size: x-large;
+}
+
+.bg-nav {
+    background-color: #1ac6ff;
+}
+
+.logo {
+    font-size: xx-large;}
+
+/* Images resizing */
+.resize-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Title */
+h2, h3{
+    color: #3f7cb4;
+    font-weight: bolder;
+}
+
+/* Article */
+h3 {
+    font-size: 20px;
+}
+
+section article {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+  
+section article:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+   
+
+/* Footer */
+footer {
+    background-color: #3f7cb4;
+    height: auto;
+    color: white;
+}
+
+h4, footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bolder;
+}
