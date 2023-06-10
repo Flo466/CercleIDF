@@ -1,6 +1,7 @@
 /* Eye-catching header section */
 .jumbotron {
     background-image: url("./Resources/0467648.jpg");
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,12 +9,21 @@
     text-align: center;
 }
 
-/* Colors */
+/* Navbar */
+.navbar-nav .nav-item {
+    padding-right: 40px;
+    font-size: x-large;
+}
+
 .bg-nav {
     background-color: #1ac6ff;
 }
 
-/* Images */
+.logo {
+    font-size: xx-large;
+}
+
+/* Images resizing */
 .resize-img {
     width: 100%;
     height: auto;
