@@ -20,8 +20,7 @@
 }
 
 .logo {
-    font-size: xx-large;
-}
+    font-size: xx-large;}
 
 /* Images resizing */
 .resize-img {
@@ -38,4 +37,26 @@ h2, h3{
 /* Article */
 h3 {
     font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #3f7cb4;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+h4, footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bolder;
 }
