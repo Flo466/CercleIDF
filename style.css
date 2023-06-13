@@ -1,6 +1,5 @@
 /* Eye-catching header section */
-.jumbotron {
-    background-image: url("./Resources/0467648.jpg");
+.events, .home-page {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,6 +7,15 @@
     color: white;
     text-align: center;
 }
+
+.home-page {
+    background-image: url("./Resources/0467648.jpg");
+}
+
+.events {
+    background-image: url("./Resources/R12.jpeg");
+}
+
 
 /* Navbar */
 .navbar-nav .nav-item {
@@ -22,24 +30,35 @@
 .logo {
     font-size: xx-large;}
 
-/* Images resizing */
+/* Home page images resizing */
 .resize-img {
     width: 100%;
     height: auto;
 }
 
+/* Events page images resizing */
+.img-events {
+    height: 180px;
+    width: auto;
+}
+
 /* Title */
-h2, h3{
+h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+h2, h3, h5 {
     color: #3f7cb4;
     font-weight: bolder;
 }
 
-/* Article */
 h3 {
     font-size: 20px;
 }
 
-section article {
+/* Article  */
+section article { 
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
 }
@@ -47,7 +66,16 @@ section article {
 section article:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-   
+
+/* Card */
+.card { 
+    height: 420px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 /* Footer */
 footer {
@@ -68,4 +96,33 @@ footer a {
 
 .bold {
     font-weight: bolder;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 200px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 10px;
+        font-size: large;
+    }
+    h2 {
+        font-size: x-large;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .bd-bt {
+        border-bottom: solid 1px white;
+    }
+    h4, footer p {
+        text-align: left;
+    }
+    .ctr {
+        text-align: center;
+    }
 }
