@@ -45,7 +45,6 @@ h3 {
 }
 
 /* Article */
-
 section article { 
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
@@ -92,5 +91,11 @@ footer a {
     }
     h3 {
         font-size: 19px;
+    }
+    .bd-bt {
+        border-bottom: solid 1px white;
+    }
+    h4, footer p {
+        text-align: left;
     }
 }
