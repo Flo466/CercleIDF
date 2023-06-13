@@ -30,13 +30,13 @@
 .logo {
     font-size: xx-large;}
 
-/* Images resizing */
+/* Home page images resizing */
 .resize-img {
     width: 100%;
     height: auto;
 }
 
-/* Events images resizing */
+/* Events page images resizing */
 .img-events {
     height: 180px;
     width: auto;
@@ -98,6 +98,7 @@ footer a {
     font-weight: bolder;
 }
 
+/* Responsive design */
 @media (max-width: 768px) {
     .jumbotron {
         height: 200px;
