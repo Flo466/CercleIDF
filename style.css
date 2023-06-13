@@ -1,12 +1,19 @@
 /* Eye-catching header section */
-.jumbotron {
-    background-image: url("./Resources/0467648.jpg");
+.events, .home-page {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
     text-align: center;
+}
+
+.home-page {
+    background-image: url("./Resources/0467648.jpg");
+}
+
+.events {
+    background-image: url("./Resources/R12.jpeg");
 }
 
 
@@ -29,13 +36,19 @@
     height: auto;
 }
 
+/* Events images resizing */
+.img-events {
+    height: 200px;
+    width: auto;
+}
+
 /* Title */
 h1 {
     font-size: 55px;
     font-weight: bolder;
 }
 
-h2, h3 {
+h2, h3, h5 {
     color: #3f7cb4;
     font-weight: bolder;
 }
@@ -44,7 +57,7 @@ h3 {
     font-size: 20px;
 }
 
-/* Article */
+/* Article  */
 section article { 
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
@@ -52,7 +65,16 @@ section article {
   
 section article:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}   
+}
+
+/* Card */
+.card { 
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 /* Footer */
 footer {
@@ -97,5 +119,8 @@ footer a {
     }
     h4, footer p {
         text-align: left;
+    }
+    .ctr {
+        text-align: center;
     }
 }
