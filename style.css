@@ -38,7 +38,7 @@
 
 /* Events images resizing */
 .img-events {
-    height: 200px;
+    height: 180px;
     width: auto;
 }
 
@@ -69,6 +69,7 @@ section article:hover {
 
 /* Card */
 .card { 
+    height: 420px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
 }
