@@ -30,16 +30,10 @@
 .logo {
     font-size: xx-large;}
 
-/* Home page images resizing */
+/* Images resizing */
 .resize-img {
     width: 100%;
     height: auto;
-}
-
-/* Events page images resizing */
-.img-events {
-    height: 180px;
-    width: auto;
 }
 
 /* Title */
@@ -69,7 +63,6 @@ section article:hover {
 
 /* Card */
 .card { 
-    height: 420px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
 }
