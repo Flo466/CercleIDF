@@ -113,29 +113,37 @@ footer a {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .jumbotron {
-        height: 200px;
-    }
+    
     h1 {
         font-size: 30px;
     }
-    .navbar-nav .nav-item {
-        padding-right: 10px;
-        font-size: large;
-    }
+
     h2 {
         font-size: x-large;
     }
+
     h3 {
         font-size: 19px;
     }
-    .bd-bt {
-        border-bottom: solid 1px white;
-    }
+
     h4, footer p {
         text-align: left;
     }
+
+    .jumbotron {
+        height: 200px;
+    }
+
     .ctr {
         text-align: center;
+    }
+
+    .bd-bt {
+        border-bottom: solid 1px white;
+    }
+
+    .navbar-nav .nav-item {
+        padding-right: 10px;
+        font-size: large;
     }
 }
